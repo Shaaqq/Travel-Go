@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Travel Packages - Travel & GO</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="brand">
+            <img src="logo 2 - Salin.png" alt="Travel & GO logo" class="logo" />
+          </div>
+          <div class="nav-links" role="navigation" aria-label="Main">
+            <a href="HOMEPAGE.html">Home</a>
+            <a href="HOMEPAGE.html#about">About</a>
+            <a href="HOMEPAGE.html#destinations">Destinations</a>
+            <a href="HOMEPAGE.html#contact">Contact</a>
+            <a href="packages.html">Packages</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="page-header">
+        <div class="hero-copy">
+          <h1>Travel Packages</h1>
+          <p>
+            Choose the perfect travel package for your next adventure — from
+            beach holidays to city escapes.
+          </p>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="card">
+          <h3>Sunrise Bali Escape</h3>
+          <p class="muted">
+            5 days in Bali with beachside villas, private tours, and cultural
+            experiences.
+          </p>
+          <p><strong>Starting from IDR 7,500,000</strong></p>
+        </div>
+        <div class="card">
+          <h3>Mountain Retreat</h3>
+          <p class="muted">
+            4 days of trekking, hot springs, and eco-lodge stays in the
+            Highlands.
+          </p>
+          <p><strong>Starting from IDR 5,200,000</strong></p>
+        </div>
+        <div class="card">
+          <h3>Jakarta City Break</h3>
+          <p class="muted">
+            3 days in the city with food tours, shopping, and top attractions.
+          </p>
+          <p><strong>Starting from IDR 3,900,000</strong></p>
+        </div>
+      </section>
+
+      <section id="contact" class="card contact-card">
+        <h2>Book a Package</h2>
+        <p class="muted">
+          Interested in one of these travel packages? Send us a message and
+          we’ll help you book.
+        </p>
+        <div style="margin-top: 1rem">
+          <a
+            class="btn-primary"
+            href="https://wa.me/6281234567890?text=Halo%20Travel%20%26%20GO%2C%20saya%20ingin%20memesan%20paket%20travel"
+            target="_blank"
+            rel="noopener"
+            >Chat via WhatsApp</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-inner">
+          <div class="muted">© <span id="year"></span> Travel & GO</div>
+          <div class="muted">Paket travel siap membantu</div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

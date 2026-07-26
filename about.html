@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About - Travel & GO</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-bar">
+        <div class="brand">
+          <img
+            src="logo 2 - Salin.png"
+            alt="Travel &amp; GO logo"
+            class="logo"
+          />
+          <span class="brand-text">Travel &amp; GO</span>
+        </div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="HOMEPAGE.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="HOMEPAGE.html#destinations">Destinations</a>
+          <a href="HOMEPAGE.html#contact">Contact</a>
+          <a href="packages.html">Packages</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section section-about">
+        <div class="section-header">
+          <span class="eyebrow">About Travel &amp; GO</span>
+          <h2>We make travel effortless and unforgettable.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="card feature-card">
+            <h3>Tailored experiences</h3>
+            <p class="muted">
+              Each itinerary is crafted around what you love — culture,
+              adventure, relaxation, or family fun.
+            </p>
+          </div>
+          <div class="card feature-card">
+            <h3>Trusted support</h3>
+            <p class="muted">
+              We partner with local experts and handle every detail so you can
+              enjoy the journey.
+            </p>
+          </div>
+          <div class="card feature-card">
+            <h3>Flexible booking</h3>
+            <p class="muted">
+              Easy planning, secure payments, and real-time travel updates for a
+              smooth trip.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Travel &amp; GO</span>
+        <nav class="footer-links">
+          <a href="HOMEPAGE.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="HOMEPAGE.html#destinations">Destinations</a>
+          <a href="packages.html">Packages</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
